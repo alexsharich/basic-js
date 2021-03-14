@@ -10,7 +10,7 @@ module.exports = function createDreamTeam(arr) {
     result.push(elem.slice(0,1))
     }
     }
-    for (let elem of result){/*add symblos uppercase*/
+    for (let elem of result){
     if(uppers.indexOf(elem) !== -1){
     res.push(elem)
     }
